@@ -33,11 +33,11 @@ public class DemoApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         
-//       SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd");
-//        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-//        crudRepository.deleteAll();
-//        userCrudRepository.deleteAll();
-//        orderCrudRepository.deleteAll();
+       SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        crudRepository.deleteAll();
+        userCrudRepository.deleteAll();
+        orderCrudRepository.deleteAll();
 
 //        crudRepository.saveAll(List.of(
 //                new Accessory("AP-903", "ACME", "MATERIAL 1", "PRESENTACION 1", "DESCRIPCION DETALLADA", true, 120000, 10, "https://www.avasoluciones.com/uploads/2021/09/910-006127.jpg"),
